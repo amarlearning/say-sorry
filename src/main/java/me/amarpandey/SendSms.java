@@ -62,7 +62,7 @@ public class SendSms {
 
 		String textDataJsonString = null;
 		JsonNode textDataJsonNode = null;
-		String textDataJsonUrl = "https://raw.githubusercontent.com/amarlearning/say-sorry/master/textmessage.json";
+		String textDataJsonUrl = "https://raw.githubusercontent.com/amarlearning/say-sorry/master/textmessage.jsonhttps://raw.githubusercontent.com/amarlearning/say-sorry/master/src/main/resource/textmessage.json";
 
 		try {
 			textDataJsonString = getDataFromUrl(textDataJsonUrl);
