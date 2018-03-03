@@ -117,7 +117,6 @@ public class SendSms {
 		textMessage = textMessage.toLowerCase();
 
 		StringBuilder messageBuilder = new StringBuilder(textMessage);
-		messageBuilder.append("\n\nPlease forgive me Chaheti :(\n\nFrom,\nAmar Prakash Pandey");
 
 		try {
 			encodedMessage = URLEncoder.encode(messageBuilder.toString(),
